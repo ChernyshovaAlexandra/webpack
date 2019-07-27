@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+}
+
+.dev-tools {
+    position: absolute;
+}
+
+.cell {
+    width: 43px;
+    height: 43px;
+    border: 1px solid #8BC34A;
+    display: flex;
+    background: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cell>span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.cell.active>span {
+    border: 2px dotted black;
+}
+
+.cell:hover {
+    background-color: #b6de88;
+}
+
+.cell:hover>span {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.area {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.red {
+    background: url('../images/red.png');
+    background-size: 30px;
+}
+
+.green {
+    background: url('../images/green.png');
+    background-size: 30px;
+}
+
+.blue {
+    background: url('../images/blue.png');
+    background-size: 30px;
+}
+
+.yellow {
+    background: url('../images/golden.png');
+    background-size: 30px;
+}
+
+.violet {
+    background: url('../images/violet.png');
+    background-size: 30px;
+}

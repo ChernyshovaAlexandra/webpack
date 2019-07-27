@@ -1,0 +1,13 @@
+$bg-color: pink;
+body {
+    background: $bg-color;
+}
+
+.container {
+    border: 1px solid gray;
+    .cell {
+        width: 15px;
+        height: 15px;
+        border: 1px solid red;
+    }
+}
